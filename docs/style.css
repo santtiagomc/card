@@ -4,14 +4,15 @@
 }
 body {
     display: flex;
-    justify-content: center;
+    justify-content: center;background: rgb(209,244,249);
+    background: radial-gradient(circle, rgba(209,244,249,1) 29%, rgba(198,216,255,1) 100%);
 }
 #card {
     text-align: center;
-    width: 400px;
-    height: 500px;
     border: 2px solid #000000;
-    border-radius: 10px;
+    border-radius: 16px;
+    margin-top: 20px;
+    background: #ffffff;
 }
 li {
     list-style: none;
@@ -29,7 +30,15 @@ header {
 ul img {
     width: 40px;
     height: 40px;
+    margin: 5px 12px;
+}
+main {
+    margin-top: 80px;
 }
 footer {
-    margin-top: 10px;
+    margin-top: 60px;
+}
+footer p {
+    background: #000000;
+    color: #ffffff;
 }
