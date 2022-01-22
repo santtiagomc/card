@@ -15,13 +15,21 @@ body {
 }
 li {
     list-style: none;
+    display: inline;
 }
 .img-perfil {
     width: 240px;
     height: 240px;
     border-radius: 100%;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
 }
 header {
+    margin-top: 10px;
+}
+ul img {
+    width: 40px;
+    height: 40px;
+}
+footer {
     margin-top: 10px;
 }
