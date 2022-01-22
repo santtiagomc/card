@@ -42,3 +42,6 @@ footer p {
     background: #000000;
     color: #ffffff;
 }
+a {
+    text-decoration: none;
+}
