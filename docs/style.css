@@ -13,8 +13,6 @@ body {
     border-radius: 16px;
     margin-top: 20px;
     background: #ffffff;
-    width: 32vw;
-    height: 86vh;
 }
 li {
     list-style: none;
@@ -46,7 +44,4 @@ footer p {
 }
 a {
     text-decoration: none;
-}
-a img:hover {
-    border-radius: 100px;
 }
